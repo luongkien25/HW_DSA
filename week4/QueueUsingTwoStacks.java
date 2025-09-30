@@ -6,7 +6,6 @@ public class QueueUsingTwoStacks {
 
     private Stack<Integer> stack1;
     private Stack<Integer> stack2;
-
     public QueueUsingTwoStacks() {
         stack1 = new Stack<>();
         stack2 = new Stack<>();
