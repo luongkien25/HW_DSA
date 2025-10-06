@@ -1,0 +1,115 @@
+Bài 1 – Khảo sát Insertion Sort
+
+Kiểm tra với dữ liệu từ file 4Kints.txt
+
+Lần 1: 11833000 nanosecond
+
+Lần 2: 11711800 nanosecond
+
+Lần 3: 14713000 nanosecond
+Trung bình: 12752600 nanosecond
+
+Kiểm tra với dữ liệu từ file 16Kints.txt
+
+Lần 1: 81713200 nanosecond
+
+Lần 2: 82000000 nanosecond
+
+Lần 3: 81000000 nanosecond
+Trung bình: 81504400 nanosecond
+
+Kiểm tra với 1000 số thực ngẫu nhiên
+
+Lần 1: 1207400 nanosecond
+
+Lần 2: 1034500 nanosecond
+
+Lần 3: 987200 nanosecond
+
+Lần 4: 1745100 nanosecond
+
+Lần 5: 950000 nanosecond
+Trung bình: 1184840 nanosecond
+
+Kiểm tra với 1000 số thực đã được sắp xếp xuôi
+
+Lần 1: 11000 nanosecond
+
+Lần 2: 5200 nanosecond
+
+Lần 3: 5300 nanosecond
+Trung bình: 7167 nanosecond
+
+Kiểm tra với 1000 số thực sắp xếp ngược
+
+Lần 1: 2443300 nanosecond
+
+Lần 2: 2019800 nanosecond
+
+Lần 3: 2038400 nanosecond
+Trung bình: 2167167 nanosecond
+
+Kiểm tra với 1000 số thực bằng nhau
+
+Lần 1: 5200 nanosecond
+
+Lần 2: 6600 nanosecond
+
+Lần 3: 5300 nanosecond
+Trung bình: 5700 nanosecond
+
+Bài 2 – Khảo sát SelectionSort
+
+Kiểm tra với dữ liệu từ file 4Kints.txt
+
+Lần 1: 19763000 nanosecond
+
+Lần 2: 19030200 nanosecond
+
+Lần 3: 20021000 nanosecond
+Trung bình: 19638000 nanosecond
+
+Kiểm tra với dữ liệu từ file 16Kints.txt
+
+Lần 1: 175200400 nanosecond
+
+Lần 2: 162013200 nanosecond
+
+Lần 3: 160293800 nanosecond
+Trung bình: 165169800 nanosecond
+
+Kiểm tra với 1000 số thực ngẫu nhiên
+
+Lần 1: 1867700 nanosecond
+
+Lần 2: 1855000 nanosecond
+
+Lần 3: 1870000 nanosecond
+Trung bình: 1867700 nanosecond
+
+Kiểm tra với 1000 số thực đã được sắp xếp xuôi
+
+Lần 1: 2324700 nanosecond
+
+Lần 2: 2330000 nanosecond
+
+Lần 3: 2327000 nanosecond
+Trung bình: 2327233 nanosecond
+
+Kiểm tra với 1000 số thực sắp xếp ngược
+
+Lần 1: 1246700 nanosecond
+
+Lần 2: 1252000 nanosecond
+
+Lần 3: 1248000 nanosecond
+Trung bình: 1248900 nanosecond
+
+Kiểm tra với 1000 số thực bằng nhau
+
+Lần 1: 535700 nanosecond
+
+Lần 2: 536200 nanosecond
+
+Lần 3: 535000 nanosecond
+Trung bình: 535300 nanosecond
