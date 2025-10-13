@@ -113,3 +113,105 @@ Lần 2: 536200 nanosecond
 
 Lần 3: 535000 nanosecond
 Trung bình: 535300 nanosecond
+
+Bài 3 – Khảo sát MergeSort
+1) File 4Kints.txt
+
+Lần 1: 2230000 ns
+
+Lần 2: 2120000 ns
+
+Lần 3: 2180000 ns
+TB: 2,176,667 ns
+
+2) File 16Kints.txt
+
+Lần 1: 8900000 ns
+
+Lần 2: 9200000 ns
+
+Lần 3: 9050000 ns
+TB: 9,050,000 ns
+
+3) 1000 số thực ngẫu nhiên
+
+52000, 49000, 50000, 51000, 49500 ns
+TB: 50,300 ns
+
+4) 1000 số thực đã sắp xếp xuôi
+
+48000, 47500, 48500 ns
+TB: 48,000 ns
+
+5) 1000 số thực sắp xếp ngược
+
+49500, 50200, 49800 ns
+TB: 49833 ns
+
+6) 1000 số thực bằng nhau
+
+47000, 47800, 47300 ns
+TB: 47367 ns
+
+Bài 4 – Khảo sát QuickSort
+Phiên bản A: QuickSort có shuffle
+1) File 4Kints.txt
+
+1800000, 1750000, 1780000 ns
+TB: 1776667 ns
+
+2) File 16Kints.txt
+
+7400000, 7600000, 7500000 ns
+TB: 7,500,000 ns
+
+3) 1000 số thực ngẫu nhiên
+
+41000, 39000, 40000, 40500, 39500 ns
+TB: 40,000 ns
+
+4) 1000 số đã sắp xếp xuôi
+
+42000, 43500, 41800 ns
+TB: 42433 ns
+
+5) 1000 số sắp xếp ngược
+
+42500, 43000, 42000 ns
+TB: 42500 ns
+
+6) 1000 số bằng nhau
+
+43000, 44000, 43500 ns
+TB: 43500 ns
+
+Phiên bản B: QuickSort không shuffle
+1) File 4Kints.txt
+
+1850000, 1900000, 1880000 ns
+TB: 1876667 ns
+
+2) File 16Kints.txt
+
+7800000, 7900000, 7700000 ns
+TB: 7800000 ns
+
+3) 1000 số thực ngẫu nhiên
+
+42000, 43000, 41500, 42500, 41800 ns
+TB: 42160 ns
+
+4) 1000 số đã sắp xếp xuôi — trường hợp xấu
+
+2100000, 2050000, 2080000 ns
+TB: 2076667 ns
+
+5) 1000 số sắp xếp ngược — trường hợp xấu
+
+2200000, 2250000, 2180000 ns
+TB: 2,210,000 ns
+
+6) 1000 số bằng nhau — trường hợp xấu
+
+2300000, 2350000, 2320000 ns
+TB: 2323333 ns
