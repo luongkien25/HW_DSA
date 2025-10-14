@@ -56,7 +56,7 @@ public class PriorityQueue {
 
         pq.printQueue();
 
-        System.out.println("deleteMin = " + pq.deleteMin()); // 1
+        System.out.println("deleteMin = " + pq.deleteMin());
         pq.printQueue();
 
         pq.insert(3);
