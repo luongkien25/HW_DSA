@@ -15,7 +15,6 @@ public class CountingSort1 {
     }
 
     public static void main(String[] args) {
-        // Reading input
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int[] arr = new int[n];

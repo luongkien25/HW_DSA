@@ -28,7 +28,7 @@ public class PriorityQueue {
     public int deleteMin() {
         if (size == 0) {
             System.out.println("Hàng đợi rỗng");
-            return -1; // hoặc ném exception
+            return -1;
         }
         int min = arr[0];
         for (int i = 1; i < size; i++) {
